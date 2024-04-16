@@ -2,11 +2,11 @@
 
 echo "Please enter username::"
 
-read username : 
+read -s username : 
 
 echo "Please enter password::"
 
-read password :
+read -s password :
 
 echo "$username and $password"
 
