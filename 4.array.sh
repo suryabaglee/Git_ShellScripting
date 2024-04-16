@@ -1,9 +1,11 @@
 #!/bin/bash
 
-Movies = ("RRR" , "Eaga" , "Athadu" )
+Movies = ("RRR" "Eaga" "Athadu")
 
-echo "Movies{$[0]}"
-echo "Movies{$[1]}"
-echo "Movies{$[@]}"
+# Print movie name
+
+echo "Movie is : {Movies$[0]}"
+echo "Movie is : {Movies$[1]}"
+echo "Movie is : {Movies$[@]}"
 
 
